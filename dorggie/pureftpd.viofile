@@ -1,0 +1,17 @@
+Nov 28 20:13:01 sa_vm dorggie[87616]: /usr/home/ftp/public/a.exe violate file detected. Uploaded by ftp.
+Nov 28 20:15:23 sa_vm dorggie[87651]: /usr/home/ftp/public/a.exe violate file detected. Uploaded by ftp.
+Nov 28 20:16:39 sa_vm dorggie[87891]: /usr/home/ftp/public/test-9f806fb9.exe violate file detected. Uploaded by ftpuser1.
+Nov 28 20:16:52 sa_vm dorggie[87945]: /usr/home/ftp/public/test-ebab1f47.exe violate file detected. Uploaded by ftpuser1.
+Nov 28 20:33:00 sa_vm dorggie[88135]: /usr/home/ftp/public/a.exe violate file detected. Uploaded by ftpuser1.
+Nov 28 20:39:23 sa_vm dorggie[88195]: /usr/home/ftp/public/a.exe violate file detected. Uploaded by ftp.
+Nov 28 20:39:59 sa_vm dorggie[88216]: /usr/home/ftp/public/a.exe violate file detected. Uploaded by ftp.
+Nov 28 20:41:10 sa_vm dorggie[88491]: /usr/home/ftp/public/test-57cb5d98.exe violate file detected. Uploaded by ftpuser1.
+Nov 28 20:41:20 sa_vm dorggie[88512]: /usr/home/ftp/public/test-6b7cc201.exe violate file detected. Uploaded by ftpuser1.
+Nov 28 21:01:33 sa_vm dorggie[89101]: /usr/home/ftp/public/test-47397a00.exe violate file detected. Uploaded by ftp-vip1.
+Nov 28 21:01:40 sa_vm dorggie[89122]: /usr/home/ftp/public/test-3029e782.exe violate file detected. Uploaded by ftp-vip1.
+Nov 28 21:40:55 sa_vm dorggie[89675]: /usr/home/ftp/public/test-929d3ab0.exe violate file detected. Uploaded by ftp-vip1.
+Nov 28 21:41:03 sa_vm dorggie[89696]: /usr/home/ftp/public/test-63bf467e.exe violate file detected. Uploaded by ftp-vip1.
+Nov 28 21:48:38 sa_vm dorggie[90043]: /usr/home/ftp/public/test-5c0d3028.exe violate file detected. Uploaded by ftp-vip1.
+Nov 28 21:48:59 sa_vm dorggie[90102]: /usr/home/ftp/public/test-558cc4aa.exe violate file detected. Uploaded by ftp-vip1.
+Nov 28 22:19:53 sa_vm dorggie[91472]: /usr/home/ftp/public/test-936edb35.exe violate file detected. Uploaded by ftp-vip1.
+Nov 28 22:20:02 sa_vm dorggie[91504]: /usr/home/ftp/public/test-09936c42.exe violate file detected. Uploaded by ftp-vip1.

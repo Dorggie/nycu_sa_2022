@@ -1,0 +1,28 @@
+#!/bin/sh
+
+
+DOMAIN="$1"
+process(){
+  cd /home/judge/hw4/preflight
+  cp ./data/nginx.template ./data/nginx.conf
+  sed -i "" "s/DOMAIN/$DOMAIN/g" ./data/nginx.conf
+  sudo cp ./data/nginx.conf /usr/local/etc/nginx/nginx.conf
+
+
+  /home/judge/.acme.sh/acme.sh --issue -d $DOMAIN -w /home/judge/ssl \
+  --ca-bundle /home/judge/rootca.pem
+
+  sleep 1
+
+  /home/judge/.acme.sh/acme.sh --issue -d $DOMAIN -w /home/judge/ssl \
+  --ca-bundle /home/judge/rootca.pem \
+  --install-cert \
+  --fullchain-file /home/judge/hw4/preflight/data/cert.pem \
+  --key-file /home/judge/hw4/preflight/data/privkey.pem
+
+  sudo service nginx restart 
+}
+
+process "$DOMAIN"
+
+exit 0

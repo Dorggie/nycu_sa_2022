@@ -1,0 +1,104 @@
+ 
+total 3
+drwxr-xr-x  2 root  virtualgroup  3 Nov 28 20:15 .
+drwxrwx--x  4 root  virtualgroup  4 Nov 25 01:32 ..
+-rw-r--r--  1 ftp   virtualgroup  0 Nov 28 20:15 a.exe
+total 3
+drwxr-xr-x  2 root      virtualgroup  3 Nov 28 20:16 .
+drwxrwx--x  4 root      virtualgroup  4 Nov 28 20:16 ..
+-rw-r--r--  1 ftpuser1  virtualgroup  0 Nov 23 17:25 test-9f806fb9.exe
+total 3
+drwxr-xr-x  2 root      virtualgroup  3 Nov 28 20:16 .
+drwxrwx--x  4 root      virtualgroup  4 Nov 28 20:16 ..
+-rw-r--r--  1 ftpuser1  virtualgroup  0 Nov 23 17:26 test-ebab1f47.exe
+total 4
+drwxr-xr-x  2 root      virtualgroup  4 Nov 28 20:33 .
+drwxrwx--x  4 root      virtualgroup  4 Nov 28 20:16 ..
+-rwxrwxrwx  1 ftpuser1  virtualgroup  0 Nov 28 20:33 a.exe
+-rw-r--r--  1 ftpuser1  virtualgroup  0 Nov 23 17:26 test-ebab1f47.exe
+total 3
+drwxrwxr-x  2 sysadm  virtualgroup  3 Nov 28 20:39 .
+drwxrwx--x  4 sysadm  virtualgroup  4 Nov 28 20:16 ..
+-rwxrwxrwx  1 ftp     virtualgroup  0 Nov 28 20:39 a.exe
+total 3
+drwxrwxr-x  2 sysadm  virtualgroup  3 Nov 28 20:39 .
+drwxrwx--x  4 sysadm  virtualgroup  4 Nov 28 20:16 ..
+-rwxrwxrwx  1 ftp     virtualgroup  0 Nov 28 20:39 a.exe
+total 3
+drwxrwxr-x  2 sysadm    virtualgroup  3 Nov 28 20:41 .
+drwxrwx--x  4 sysadm    virtualgroup  4 Nov 28 20:40 ..
+-rwxrwxrwx  1 ftpuser1  virtualgroup  0 Nov  9 18:57 test-57cb5d98.exe
+total 3
+drwxrwxr-x  2 sysadm    virtualgroup  3 Nov 28 20:41 .
+drwxrwx--x  4 sysadm    virtualgroup  4 Nov 28 20:40 ..
+-rwxrwxrwx  1 ftpuser1  virtualgroup  0 Nov  9 18:57 test-6b7cc201.exe
+total 3
+drwxrwxr-x  2 sysadm    virtualgroup  3 Nov 28 21:01 .
+drwxrwx--x  4 sysadm    virtualgroup  4 Nov 28 21:00 ..
+-rwxrwxrwx  1 ftp-vip1  virtualgroup  0 Nov 23 17:26 test-47397a00.exe
+total 3
+drwxrwxr-x  2 sysadm    virtualgroup  3 Nov 28 21:01 .
+drwxrwx--x  4 sysadm    virtualgroup  4 Nov 28 21:00 ..
+-rwxrwxrwx  1 ftp-vip1  virtualgroup  0 Nov 23 17:21 test-3029e782.exe
+total 3
+drwxrwxr-x  2 sysadm    virtualgroup  3 Nov 28 21:40 .
+drwxrwx--x  4 sysadm    virtualgroup  4 Nov 28 21:40 ..
+-rwxrwxrwx  1 ftp-vip1  virtualgroup  0 Nov 23 17:25 test-929d3ab0.exe
+total 3
+drwxrwxr-x  2 sysadm    virtualgroup  3 Nov 28 21:41 .
+drwxrwx--x  4 sysadm    virtualgroup  4 Nov 28 21:40 ..
+-rwxrwxrwx  1 ftp-vip1  virtualgroup  0 Nov 23 17:21 test-63bf467e.exe
+total 3
+drwxrwxr-x  2 sysadm    virtualgroup  3 Nov 28 21:48 .
+drwxrwx--x  4 sysadm    virtualgroup  4 Nov 28 21:48 ..
+-rwxrwxrwx  1 ftp-vip1  virtualgroup  0 Nov  9 18:57 test-5c0d3028.exe
+total 3
+drwxrwxr-x  2 sysadm    virtualgroup  3 Nov 28 21:48 .
+drwxrwx--x  4 sysadm    virtualgroup  4 Nov 28 21:48 ..
+-rwxrwxrwx  1 ftp-vip1  virtualgroup  0 Nov  9 18:57 test-558cc4aa.exe
+total 3
+drwxrwxr-x  2 sysadm    virtualgroup  3 Nov 28 22:19 .
+drwxrwx--x  4 sysadm    virtualgroup  4 Nov 28 22:19 ..
+-rwxrwxrwx  1 ftp-vip1  virtualgroup  0 Nov  9 18:57 test-936edb35.exe
+total 3
+drwxrwxr-x  2 sysadm    virtualgroup  3 Nov 28 22:20 .
+drwxrwx--x  4 sysadm    virtualgroup  4 Nov 28 22:19 ..
+-rwxrwxrwx  1 ftp-vip1  virtualgroup  0 Nov  9 18:57 test-09936c42.exe
+total 3
+drwxrwxr-x  2 sysadm  virtualgroup  3 Nov 29 04:38 .
+drwxrwx--x  4 sysadm  virtualgroup  4 Nov 29 04:35 ..
+-rwxrwxrwx  1 ftp     virtualgroup  0 Nov 29 04:38 a.exe
+total 4
+drwxrwxr-x  2 sysadm    virtualgroup  4 Nov 29 04:40 .
+drwxrwx--x  4 sysadm    virtualgroup  4 Nov 29 04:39 ..
+-rwxrwxrwx  1 ftp       virtualgroup  0 Nov 29 04:38 a.exe
+-rwxrwxrwx  1 ftp-vip1  virtualgroup  0 Nov 23 17:21 test-57896441.exe
+total 4
+drwxrwxr-x  2 sysadm    virtualgroup  4 Nov 29 04:40 .
+drwxrwx--x  4 sysadm    virtualgroup  4 Nov 29 04:39 ..
+-rwxrwxrwx  1 ftp       virtualgroup  0 Nov 29 04:38 a.exe
+-rwxrwxrwx  1 ftp-vip1  virtualgroup  0 Nov 23 17:21 test-6be63272.exe
+total 3
+drwxrwxr-x  2 sysadm  virtualgroup  3 Nov 29 04:47 .
+drwxrwx--x  4 sysadm  virtualgroup  4 Nov 29 04:47 ..
+-rwxrwxrwx  1 ftp     virtualgroup  0 Nov 29 04:47 a.exe
+total 4
+drwxrwxr-x  2 sysadm    virtualgroup  4 Nov 29 04:48 .
+drwxrwx--x  4 sysadm    virtualgroup  4 Nov 29 04:48 ..
+-rwxrwxrwx  1 ftp       virtualgroup  0 Nov 29 04:47 a.exe
+-rwxrwxrwx  1 ftp-vip1  virtualgroup  0 Nov 23 17:26 test-75c4df3e.exe
+total 4
+drwxrwxr-x  2 sysadm    virtualgroup  4 Nov 29 04:49 .
+drwxrwx--x  4 sysadm    virtualgroup  4 Nov 29 04:48 ..
+-rwxrwxrwx  1 ftp       virtualgroup  0 Nov 29 04:47 a.exe
+-rwxrwxrwx  1 ftp-vip1  virtualgroup  0 Nov  9 18:57 test-220222fb.exe
+total 4
+drwxrwxr-x  2 sysadm    virtualgroup  4 Nov 29 04:57 .
+drwxrwx--x  4 sysadm    virtualgroup  4 Nov 29 04:56 ..
+-rwxrwxrwx  1 ftp       virtualgroup  0 Nov 29 04:38 a.exe
+-rwxrwxrwx  1 ftp-vip1  virtualgroup  0 Nov  9 18:57 test-d56a094d.exe
+total 4
+drwxrwxr-x  2 sysadm    virtualgroup  4 Nov 29 04:57 .
+drwxrwx--x  4 sysadm    virtualgroup  4 Nov 29 04:56 ..
+-rwxrwxrwx  1 ftp       virtualgroup  0 Nov 29 04:38 a.exe
+-rwxrwxrwx  1 ftp-vip1  virtualgroup  0 Nov  9 18:57 test-17be4435.exe

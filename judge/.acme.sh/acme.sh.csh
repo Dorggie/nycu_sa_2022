@@ -1,0 +1,2 @@
+setenv LE_WORKING_DIR "/home/judge/.acme.sh"
+alias acme.sh "/home/judge/.acme.sh/acme.sh"

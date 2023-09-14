@@ -1,0 +1,6 @@
+#!/bin/sh
+
+DOMAIN="$1"
+
+echo DOMAIN: $DOMAIN
+

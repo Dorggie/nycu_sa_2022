@@ -1,0 +1,8 @@
+HTTP/2 200 
+cache-control: no-store
+content-type: application/pem-certificate-chain; charset=utf-8
+link: <https://ca.nasa.nycu:9000/acme/acme/directory>;rel="index"
+replay-nonce: VzR1UWxyRExOcEpZM3VndURhOXVkYmhwZWp3QlVodWk
+content-length: 2169
+date: Wed, 21 Dec 2022 09:26:08 GMT
+

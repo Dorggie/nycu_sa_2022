@@ -1,0 +1,16 @@
+{
+	"name": "example.hw2",
+	"author": "huytseng",
+	"date": 1662786784,
+	"files": [
+		{
+			"name": "example.txt",
+			"type": "file",
+			"data":"TG9yZW0gaXBzdW0gZG9sb3Igc2l0IGFtZXQsIGNvbnNlY3RldHVyIGFkaXBpc2NpbmcgZWxpdC4gTWF1cmlzIGVsZWlmZW5kIHNlbSBsZW8sIGlkIHRpbmNpZHVudCBsb3JlbSB2ZW5lbmF0aXMgZWdldC4=",
+			"hash": {
+			"md5": "9ce543926bc4f3d67368b58e61fb7710",
+			"sha-1": "f1d2e348391c502880eb246184f542556005874b"
+ 			}
+ 		}
+ ]
+}

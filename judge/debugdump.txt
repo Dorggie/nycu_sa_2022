@@ -1,0 +1,59 @@
+== Info:   Trying 127.0.0.1:44444...
+== Info: Connected to localhost (127.0.0.1) port 44444 (#0)
+=> Send header, 160 bytes (0xa0)
+0000: POST /urlencoded HTTP/1.1
+001b: Host: localhost:44444
+0032: User-Agent: curl/7.86.0
+004b: Accept: */*
+0058: Content-Type: application/x-www-form-urlencoded
+0089: Content-Length: 794
+009e: 
+=> Send data, 794 bytes (0x31a)
+0000: secretKey=/w9vIgtrYWJ1Z2VzbGdodWEDSQAiDXh5bHRkYmNxcGJ1ZHNJAkZJBC
+0040: INeXN2eWxhamRzcGpodEADAyIHcnR4cXFraCIGaXV1cmhlIgd0dGJ0dXd2byIEZH
+0080: BtaG8iDXNieG9ndnp4Ynp3cXdvIgRmb2l5IghndmdsbW51ZXsBewF7ASINbWxybG
+00c0: xjb2Vjd2ZxYW8iBW9sdW91byIGY21teGhlbyIFcXR1c2FvIghjYm9oaWdrcSIGd3
+0100: NyaGFhewF7AXsBewEiBHRkZnRvIgxwcHpidml0anZ5YmNvIgRydm50byINb2hmbW
+0140: J0ZGx5dHdkdW8iCG9xaGFocmpqIgVyeG12ansBewF7AXsBIgd4ZHdlZWNuIgRjd2
+0180: hvIgpnYnVucHhudWxmYQNJAE78QB41aA3vP0kCRkkETgTwzgDB0NQ/QAMDIgh1dm
+01c0: ZpYWppaWEDSQBJBkkCTghrIoutAdE/SQRJFkADAyIKb3FuZWpncG9kYyIFbXl3Ym
+0200: 8iBHB5eXhvIgtzeW54ZGdmYXF6aG8iDWlweGpmcXFreXljeWciC3ZubWFjcnl2d2
+0240: 93ewF7ASIJdXpsa3Z6YWlyYQRJAEnEAUkCIghocmRvbnZld0kESUBJBlRABAQiCW
+0280: hmZHp1ZHlra28iCnhzdHNudnN2dHlvIgtjYnB5cmRuZXJzc28iDXFremJmY3Rpcm
+02c0: 9wZWRvIg1kd2VpZmVtdXp6dnNyIgx2bWltbnVxcmdnZW97AXsBewF7ASIKZGN2dW
+0300: hnemt2emECSQBJQEkCVEACAnsN
+== Info: Mark bundle as not supporting multiuse
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 23 bytes (0x17)
+0000: X-Powered-By: Express
+<= Recv header, 40 bytes (0x28)
+0000: Content-Type: application/octet-stream
+<= Recv header, 57 bytes (0x39)
+0000: Content-disposition: attachment;filename=secretFile.bin
+<= Recv header, 21 bytes (0x15)
+0000: Content-Length: 861
+<= Recv header, 37 bytes (0x25)
+0000: Date: Wed, 21 Dec 2022 09:24:46 GMT
+<= Recv header, 24 bytes (0x18)
+0000: Connection: keep-alive
+<= Recv header, 23 bytes (0x17)
+0000: Keep-Alive: timeout=5
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 861 bytes (0x35d)
+0000: ..o".rvezktxeo".gytuqdrako".oxeloxffkppujo".hgmqaqsyuo".ifzo".bo
+0040: dc{.{.{.{.".tdoercopa.I.N<$.....?I.".tqevpI.I8@..".jtplvdbxtpra.
+0080: I.TI.N....6.u?I.TI.N..Wc.?.?@..".fbxtnjwirlljt".jnmatnystusu".ni
+00c0: ghdva.I.N......=@I.N.s.....?I.".culcvomrratu@..".yctlsoF".gfifyx
+0100: whayrtz".mzqrsalb".yatvfefxwvcso".rtdyo".wrxyttm".pzibqpkh{.{.".
+0140: bmeba.I.".jsmgqywateI.I.I.".kohu@..".ekds".jjwnmz".rokdzsjjo".vr
+0180: qprpnttxo".mwcjjejvhnoljo".iztcvi".arjxpkg{.{.{.".pdrga.I.FI.Nn.
+01c0: .C...?I.If@..".mqbemN..b....?".qjrjktdkxyF".znubrzwgso".eauioxfo
+0200: o".xttdupaoo".plxhnyfjmmqo".fzdjuiqdl".fjvo{.{.{.{.".voyxra.I.".
+0240: pxngskjI.I..I.I.@..".thaulo".vngllo".fxnao".jtrvnftqo".bjuglilpy
+0280: wqw".nytkvqlje{.{.{.{.".tkvtN...9...?".iegxfjjF".yggzvtusjnba.I.
+02c0: TI.".seiozcgcioqI.F@..".cpshrndtsbcoa.I.N.M...#.?I.Nx......?I.I.
+0300: .@..".dlnurddjso".dxeno".bzpslcuhqo".ijjkohh".nkjohe{.{.{.".aoxw
+0340: vokwnua.I.".jkttyqyjtI.T@..{.
+== Info: Connection #0 to host localhost left intact

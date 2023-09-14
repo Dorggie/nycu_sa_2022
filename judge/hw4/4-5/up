@@ -1,0 +1,31 @@
+#!/bin/sh
+
+URL="$1"
+echo URL: $URL
+
+key=$(curl -X POST -H "Content-Type: application/json" -d '{"keyword":"give_me_secret_key"}' $URL/json)
+echo first success
+key=$(echo $key | jq -r '.secretKey')
+echo jq-r : $key
+sleep 1
+#data=$(cat <<EOF
+#{"secretKey":$key}
+#EOF
+#)
+#echo data: $data
+
+file=$(curl -X POST -o /home/judge/hw4/4-5/data/file --trace-ascii debugdump.txt -H "Content-Type: application/x-www-form-urlencoded" -d "secretKey=$key"  $URL/urlencoded)
+echo second success
+echo file: $file
+sleep 1
+
+#curl -v -F secretFile=$file $URL/multipart
+curl -X POST -H "Content-Type: multipart/form-data" -F secretFile=@/home/judge/hw4/4-5/data/file $URL/multipart
+
+echo third success
+sleep 1
+
+
+
+
+

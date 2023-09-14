@@ -1,0 +1,67 @@
+
+#user  nobody;
+worker_processes  1;
+
+
+
+events {
+    worker_connections  1024;
+}
+
+
+http {
+    include       mime.types;
+    default_type  application/octet-stream; 
+    sendfile        on;
+    keepalive_timeout  65;
+    server {
+        listen       80;
+        server_name  DOMAIN;
+        error_page   500 502 503 504  /50x.html;
+
+	
+	#/query?k={k}&v={v} -> /api/1.0/query/{k}/{v}
+	#location  /query{
+	#    #rewrite "^/query?k=(.*)&v=(.*)$" /api/1.0/query/$1/$2 break;
+	#    #rewrite /?(.*)$ /api/1.0/query/$arg_k/$arg_v break;
+	#    rewrite ^/api/1.0/query/(.*)/(.*)$ /query?k=$1&v=$2 break;
+	#    
+	#    proxy_pass http://ca.nasa.nycu:4442;
+	#    proxy_redirect off;
+	#    #proxy_set_header Host $host;
+	#}
+	return 302 https://$server_name$request_uri;
+    } 
+
+    
+    # HTTPS server
+     server {
+        listen       443 ssl;
+        server_name  DOMAIN;
+        ssl_certificate      /home/judge/hw4/preflight/data/cert.pem;
+        ssl_certificate_key  /home/judge/hw4/preflight/data/privkey.pem;
+
+        ssl_session_timeout  5m;
+        ssl_prefer_server_ciphers  on;
+	#location /{
+	#    alias /home/judge/ssl/;
+	#    index index.html index.htm;
+	#}
+	location / {
+            #alias  /home/judge/ssl/;
+            #index  index.html index.htm;
+	    #rewrite /query?(.*)$ /api/1.0/query/arg_k/arg_v break;
+	    add_header Access-Control-Allow-Origin true;
+	    if ($args ~* "/query?"){
+		set $k $1;
+		set $args '';
+		rewrite ^.*$ /api/1.0/query/$k break;
+	    }
+	    rewrite /?(.*)$ /api/1.0/$1 break;
+	    proxy_pass http://ca.nasa.nycu:4442;
+	    proxy_redirect off;
+	    proxy_set_header Host $host;
+	}
+     }
+
+}

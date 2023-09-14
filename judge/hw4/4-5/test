@@ -1,0 +1,7 @@
+#!/bin/sh
+key="123"
+foo=$(cat <<EOF
+{"secretKey":"$key"}
+EOF
+)
+echo foo: $foo
